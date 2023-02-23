@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+    background-color: aqua;
+}
+
+#container{
+
+    display: flex;
+    flex-direction: column;
+   
+}
+#contenedorInputs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+}
+label{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(61, 61, 49);
+}
+input{
+    padding: 20px;
+    font-size: 20px;
+}
+#btn{
+    padding: 5px;
+    border: none;
+    margin: 10px 50%;
+    width: 200px;
+    max-width: 100%;
+    font-size: 50px;
+    background-color: blueviolet;
+
+}
+.parrafo{
+
+    font-size: 40px;
+    color: rgb(137, 133, 124);
+    
+}
